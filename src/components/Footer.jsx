@@ -2,7 +2,6 @@ import React from 'react';
 import {
   FaGithub,
   FaLinkedin,
-  FaInstagram,
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -34,7 +33,7 @@ const Footer = () => {
         >
 
           {/* Column 1 */}
-          <div>
+          <div className="text-center md:text-left lg:text-left">
             <h2
               className="
               text-3xl
@@ -58,14 +57,12 @@ const Footer = () => {
               leading-relaxed
               "
             >
-              Frontend Developer passionate about building
-              modern, responsive, and user-friendly web
-              applications using React.js.
+              Frontend Developer specializing in React.js, JavaScript, and Tailwind CSS. Passionate about creating modern, responsive, and user-friendly web applications.
             </p>
           </div>
 
           {/* Column 2 */}
-          <div>
+          <div className="text-center md:text-left lg:text-left">
             <h3
               className="
               text-xl
@@ -76,7 +73,18 @@ const Footer = () => {
               Quick Links
             </h3>
 
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 items-center md:items-start lg:items-start">
+
+              <a
+                href="#home"
+                className="
+                text-slate-600 dark:text-slate-300
+                hover:text-cyan-500
+                transition duration-300
+                "
+              >
+                Home
+              </a>
 
               <a
                 href="#about"
@@ -126,7 +134,7 @@ const Footer = () => {
           </div>
 
           {/* Column 3 */}
-          <div>
+          <div className="text-center md:text-left lg:text-left">
             <h3
               className="
               text-xl
@@ -137,7 +145,7 @@ const Footer = () => {
               Technologies
             </h3>
 
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 items-center md:items-start lg:items-start">
 
               <p className="text-slate-600 dark:text-slate-300">
                 React.js
@@ -159,7 +167,7 @@ const Footer = () => {
           </div>
 
           {/* Column 4 */}
-          <div>
+          <div className="text-center md:text-left lg:text-left">
             <h3
               className="
               text-xl
@@ -170,7 +178,7 @@ const Footer = () => {
               Connect
             </h3>
 
-            <div className="flex items-center gap-5">
+            <div className="flex items-center justify-center md:justify-start lg:justify-start gap-5">
 
               <a
                 href="https://github.com/hasan-web-dev"
@@ -182,7 +190,8 @@ const Footer = () => {
                 text-slate-700 dark:text-slate-300
 
                 hover:text-cyan-500
-                hover:scale-110
+                hover:scale-125
+                hover:-translate-y-1
 
                 transition duration-300
                 "
@@ -200,7 +209,8 @@ const Footer = () => {
                 text-slate-700 dark:text-slate-300
 
                 hover:text-cyan-500
-                hover:scale-110
+                hover:scale-125
+                hover:-translate-y-1
 
                 transition duration-300
                 "
@@ -210,13 +220,12 @@ const Footer = () => {
 
             </div>
 
-            <p
-              className="
-              mt-6
-              text-slate-600 dark:text-slate-300
-              "
-            >
-              hasan4cd@gmail.com
+            <p className="mt-6 text-slate-600 dark:text-slate-300">
+              📧 hasan4cd@gmail.com
+            </p>
+
+            <p className="mt-2 text-slate-600 dark:text-slate-300">
+              📍 Karachi, Pakistan
             </p>
 
           </div>
@@ -236,7 +245,7 @@ const Footer = () => {
           "
         >
           <p>
-            © 2026 Hasan Raza | All Rights Reserved.
+            © {new Date().getFullYear()} Hasan Raza | All Rights Reserved.
           </p>
         </div>
 

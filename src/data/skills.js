@@ -4,9 +4,11 @@ export const Skills = [
     'HTML',
     'CSS',
     'JavaScript',
-    'React',
+    'React.js',
+    'Tailwind CSS',
+    'Responsive Design',
     'Node.js',
-    'Express',
+    'Express.js',
     'MongoDB',
     'GitHub',
 ];
