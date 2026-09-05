@@ -8,7 +8,7 @@ const Projects = () => {
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Projects</h2>
 
       <p className="text-center text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-6">
-        A collection of projects showcasing my skills in React.js, JavaScript, Tailwind CSS, and modern frontend development.
+        Here are some of the projects I've worked on. Each project showcases my skills in web development and my ability to create responsive and user-friendly applications.
       </p>
 
       <motion.div
